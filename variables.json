@@ -1,0 +1,13 @@
+{
+"variables": {
+        "cpus": "1",
+        "disk_size": "10000",
+        "network": "vmnet8",
+        "ssh_username": "mearls",
+        "ssh_password": "mearls",
+        "iso_checksum": "7d8e0055d663bffa27c1718685085626cb59346e7626ba3d3f476322271f573e",
+        "iso_checksum_type": "sha256",
+        "memory": "1024",
+        "mirror": "http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.3-server-amd64.iso",
+        "ssh_timeout": "10m"
+    }
