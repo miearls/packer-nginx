@@ -60,8 +60,8 @@
         "<enter>"
       ],
             "ssh_timeout": "{{user `ssh_timeout`}}",
-            "ssh_username": "mearls",
-            "ssh_password": "mearls",
+            "ssh_username": "{{user `ssh_username`}}",
+            "ssh_password": "{{user `ssh_password`}}",
             "shutdown_command": "sudo systemctl poweroff"
     }
   ],
